@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "Cyberverse";
+    src: url('./Cyberverse.otf');
+    font-weight: 300;
+}
+
+html {
+    background-color: #000;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clock {
+    font-family: 'Cyberverse', Arial, Helvetica, sans-serif;
+    color: rgb(0, 255, 255);
+    font-size: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
